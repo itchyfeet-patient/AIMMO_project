@@ -1,12 +1,12 @@
-### 2022- AIMMO X AIFFEL Project
+## 2022- AIMMO X AIFFEL Project
 
-## 🚚 [Data-centric Task] 환경조건별 객체 탐지성능 강건화를 위한 자율주행 학습데이터셋 구성비 도출 프로젝트
-##### [Data-centric Task] Self-driving Dataset Composition Ratio Derivation Project for Robust Object detection
+# 🚚 [Data-centric Task] 환경조건별 객체 탐지성능 강건화를 위한 자율주행 학습데이터셋 구성비 도출 프로젝트
+#### [Data-centric Task] Self-driving Dataset Composition Ratio Derivation Project for Robust Object detection
 
 Project Name : 불꽃주행 
 Project execution period : 2022.11 ~ 2022.12
 
-## Index
+# Index
 1. Description
 2. Environment
 3. Files
@@ -14,9 +14,10 @@ Project execution period : 2022.11 ~ 2022.12
 5. Result
 6. Member
    
-### 1. Description
+## 1. Description
 ---
-![image](https://user-images.githubusercontent.com/108614874/206996261-31173c7f-7baa-4686-a324-6234431e6122.png)
+![image](https://user-images.githubusercontent.com/108614874/206998885-cd327b15-e806-42f0-b502-04f1df61854d.png)
+
 AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 진행한 Data-centric AI 개발 방법론 프로젝트입니다.
 
 **AIMMO 기업소개**
@@ -25,31 +26,32 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 **프로젝트 개요**
 모델을 고정한 데이터 중심의 AI 개발 방법론을 이용, 주 / 야 / 맑음 / 비 각 환경조건에서 객체 탐지성능 편차를 최소화 할 수 있는 학습 데이터셋의 구성비를 도출하고 테스트 데이터의 추론 결과에 대해 구성비 선정 결과 / 근거 / 결론을 정리했습니다.
 
-### 2. Environment  
+## 2. Environment  
 * Python 3.9
 * Pytorch 1.7.1
 * Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 
-### 3.  Files
-`/Runs` : 가장 결과가 좋았던  구성비의 Jupyter Notebook (`final_composition_ratio.ipynb`)
+## 3.  Files
+`/runs/final_composition_ratio.ipynb` : 가장 결과가 좋았던  구성비의 Jupyter Notebook
+`/runs/train.txt` : 학습에 사용된 이미지 목록
 
-### 4.  Data
+## 4.  Data
 AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
-### 5.  Result
+## 5.  Result
 **Preprocessing**
 * 원본 데이터에서 잘림, 가림이 심한(75%이상) 데이터를 제외
 * 라벨링 일관성 오류 데이터 제외
 
 **(time : 주간, 야간, 일몰 weather : 맑음, 흐림, 비)**
 * 위 meta 정보를 기반으로 구성비를 나눈 실험 결과를 기반으로 이미지 개수를 조절하거나 구성비를 조절하는 실험 진행
-![image](https://user-images.githubusercontent.com/108614874/206995410-5bca46db-3e43-4bfb-88e3-af0aa90deda0.png)
+![image](https://user-images.githubusercontent.com/108614874/207001283-79741e2a-ba11-4ee1-99c6-ec8e73b001f7.png)
 
+### 최종 구성비 
+![image](https://user-images.githubusercontent.com/108614874/207000994-8a86e8e8-5979-4017-b693-7a1fc52f4ef4.png)
+Test Data 총 56560장 사용, Test **mAP50 기준 0.788** 기록
 
-
-
-
-### 6.  Member
+## 6.  Member
 | Name           | Role                                                              |                           Github                           |         Email         |
 |:----------------:|-------------------------------------------------------------------|:----------------------------------------------------------:|:---------------------:|
 | 김동욱 (Leader) | 총괄 및 모델링                                                    | [@dong-uk-kim97](https://github.com/dong-uk-kim97)         |                       [✉](kdw24739577@gmail.com)|
