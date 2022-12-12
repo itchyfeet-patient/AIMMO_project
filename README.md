@@ -11,8 +11,9 @@ Project execution period : 2022.11 ~ 2022.12
 2. Environment
 3. Files
 4. Data
-5. Result
-6. Member
+5. 
+6. Result
+7. Member
    
 ## 1. Description
 ---
@@ -31,14 +32,16 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 * Pytorch 1.7.1
 * Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 
-## 3.  Files
-`/runs/final_composition_ratio.ipynb` : 가장 결과가 좋았던  구성비의 Jupyter Notebook  
+## 3. Files
+`/runs/final_composition_ratio.ipynb` : 가장 결과가 좋았던  구성비의 Jupyter Notebook
 `/runs/train.txt` : 학습에 사용된 이미지 목록
 
-## 4.  Data
+## 4. Data
 AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
-## 5.  Result
+## 5. Project 
+
+## 6. Result
 **Preprocessing**
 * 원본 데이터에서 잘림, 가림이 심한(75%이상) 데이터를 제외
 * 라벨링 일관성 오류 데이터 제외
@@ -51,7 +54,7 @@ AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 ![image](https://user-images.githubusercontent.com/108614874/207000994-8a86e8e8-5979-4017-b693-7a1fc52f4ef4.png)
 Test Data 총 56560장 사용, Test **mAP50 기준 0.788** 기록
 
-## 6.  Member
+## 7. Member
 | Name           | Role                                                              |                           Github                           |         Email         |
 |:----------------:|-------------------------------------------------------------------|:----------------------------------------------------------:|:---------------------:|
 | 김동욱 (Leader) | 총괄 및 모델링                                                    | [@dong-uk-kim97](https://github.com/dong-uk-kim97)         |                       [✉](kdw24739577@gmail.com)|
