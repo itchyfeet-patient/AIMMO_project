@@ -34,7 +34,6 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 `/Runs` : 가장 결과가 좋았던  구성비의 Jupyter Notebook (`final_composition_ratio.ipynb`)
 
 ### 4.  Data
-![image](https://user-images.githubusercontent.com/108614874/206995824-10c67453-826d-482f-ab09-a58ee670d205.png)
 AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
 ### 5.  Result
