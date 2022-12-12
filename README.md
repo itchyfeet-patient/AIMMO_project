@@ -3,13 +3,16 @@
 ## 🚚 [Data-centric Task] 환경조건별 객체 탐지성능 강건화를 위한 자율주행 학습데이터셋 구성비 도출 프로젝트
 ##### [Data-centric Task] Self-driving Dataset Composition Ratio Derivation Project for Robust Object detection
 
-Project Name : 불꽃주행   
+Project Name : 불꽃주행 
 Project execution period : 2022.11 ~ 2022.12
 
 ## Index
 1. Description
 2. Environment
-3. 
+3. Files
+4. Data
+5. Result
+6. Member
    
 ### 1. Description
 ---
@@ -24,14 +27,23 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 ### 2. Environment  
 * Python 3.9
 * Pytorch 1.7.1
+* Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 
 ### 3.  Files
-/runs
+`/Runs` : 가장 결과가 좋았던  구성비의 Jupyter Notebook (`final_composition_ratio.ipynb`)
 
 ### 4.  Data
-
+AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
 ### 5.  Result
+**Preprocessing**
+* 원본 데이터에서 잘림, 가림이 심한(75%이상) 데이터를 제외
+* 라벨링 일관성 오류 데이터 제외
+
+**(time : 주간, 야간, 일몰 weather : 맑음, 흐림, 비)**
+* 위 meta 정보를 기반으로 구성비를 나눈 실험 결과를 기반으로 이미지 개수를 조절하거나 구성비를 조절하는 실험 진행
+
+
 
 ### 6.  Member
 | Name           | Role                                                              |                           Github                           |         Email         |
