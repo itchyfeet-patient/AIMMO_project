@@ -3,7 +3,7 @@
 ## 🚚 [Data-centric Task] 환경조건별 객체 탐지성능 강건화를 위한 자율주행 학습데이터셋 구성비 도출 프로젝트
 ##### [Data-centric Task] Self-driving Dataset Composition Ratio Derivation Project for Robust Object detection
 
-Project Name : 불꽃주행 
+Project Name : 불꽃주행   
 Project execution period : 2022.11 ~ 2022.12
 
 ## Index
