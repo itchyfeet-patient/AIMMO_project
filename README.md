@@ -16,6 +16,7 @@ Project execution period : 2022.11 ~ 2022.12
    
 ### 1. Description
 ---
+![image](https://user-images.githubusercontent.com/108614874/206996261-31173c7f-7baa-4686-a324-6234431e6122.png)
 AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 진행한 Data-centric AI 개발 방법론 프로젝트입니다.
 
 **AIMMO 기업소개**
@@ -33,6 +34,7 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 `/Runs` : 가장 결과가 좋았던  구성비의 Jupyter Notebook (`final_composition_ratio.ipynb`)
 
 ### 4.  Data
+![image](https://user-images.githubusercontent.com/108614874/206995824-10c67453-826d-482f-ab09-a58ee670d205.png)
 AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
 ### 5.  Result
@@ -42,6 +44,9 @@ AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
 
 **(time : 주간, 야간, 일몰 weather : 맑음, 흐림, 비)**
 * 위 meta 정보를 기반으로 구성비를 나눈 실험 결과를 기반으로 이미지 개수를 조절하거나 구성비를 조절하는 실험 진행
+![image](https://user-images.githubusercontent.com/108614874/206995410-5bca46db-3e43-4bfb-88e3-af0aa90deda0.png)
+
+
 
 
 
