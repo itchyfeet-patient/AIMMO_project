@@ -34,9 +34,9 @@ AI 데이터 기업 **AIMMO** 와 AI 혁신학교 **AIFFEL** 이 협업하여 �
 * Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 
 ## 3. Files
-`/runs/final_composition_ratio.ipynb` : 가장 결과가 좋았던  구성비의 Jupyter Notebook
-`/runs/train.txt` : 학습에 사용된 이미지 목록
-`/runs/best.pt` : best 가중치파일
+`/runs/final_composition_ratio.ipynb` : 가장 결과가 좋았던  구성비의 Jupyter Notebook  
+`/runs/train.txt` : 학습에 사용된 이미지 목록  
+`/runs/best.pt` : best 가중치파일  
 
 ## 4. Data
 AIMMO 원본 데이터 : 총 7.8만장 png + json 쌍 사용
